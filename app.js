@@ -1,9 +1,7 @@
-const rob = 'rob';
-const john = 'john';
+const names = require('./3-names');
+const sayHi = require('./4-utils');
+console.log(names);
 
-const sayHi = (name) => {
-  console.log(`Hi my name is ${name}`);
-};
 sayHi('Sarah')
-sayHi(rob);
-sayHi(john);
+sayHi(names.rob);
+sayHi(names.john);
