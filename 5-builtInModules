@@ -1,0 +1,4 @@
+const operatingSystem = require('os');
+console.log(operatingSystem.userInfo());
+const path = require('path')
+console.log(path.sep);
