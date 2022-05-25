@@ -2,3 +2,10 @@ const operatingSystem = require('os');
 console.log(operatingSystem.userInfo());
 const path = require('path')
 console.log(path.sep);
+// console.log(path.join(dirname));
+const filename = path.join('/content', 'subfolder', 'test.txt')
+console.log(filename);
+const base = path.basename(filename);
+console.log(base);
+const absolutePath = path.resolve(__dirname, '/content', 'subfolder', 'test.txt');
+console.log(absolutePath);
